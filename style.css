@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.main1{
+    display: flex;
+  /*  align-items: center; */
+    margin: 5%;
+  background-color:white;
+ /*  flex-direction:row;  */
+ justify-content:space-between;
+}
+
+.main_txt{
+ display: flex;
+ flex-direction:column;
+ width:900px;
+ height:500px;
+  background-color:#f2f5fc;
+  justify-content:center;
+  align-items:center;
+
+
+
+}
+
+.main_dibujo {
+ display: flex;
+ background-color:white;
+ }
+.main_txt_sec1{
+ display: flex;
+
+ background-color:yellow;
+padding: 10px 50px 20px;
+
+
+
+}
+
+.main_txt_sec2{
+ display: flex;
+  width:300px;
+  height:250px;
+background-color:blue;
+ flex-direction:row;
+ justify-content:space-between;
+}
+
+.ch2{
+color:#0a3971;
+}
+
+
+
+.button1 {
+    width:328px;
+    height:67px;
+    border-radius: 24px;
+    padding: 7px 12px;
+    border: 1px solid #D5D5D5;
+    /* background-image: #0a3971;*/
+    background-color:#0a3971;
+    color:white;
+    font: 700 13px/18px Helvetica, arial;
+}
+
+.button2 {
+    width:328px;
+    height:67px;
+    border-radius: 24px;
+    padding: 7px 12px;
+    border: 1px solid #0a3971;
+    background-image: #428bca;
+    background-color:#d6dee9;
+    color:#0a3971;
+    font: 700 13px/18px Helvetica, arial;
+}
+
